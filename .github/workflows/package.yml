@@ -26,6 +26,6 @@ jobs:
         pip install -r requirements.txt
     - name: Maturin build and publish
       run:
-        maturin publish --no-sdist -u __token__ -i python -r https://test.pypi.org/legacy/
+        maturin publish --no-sdist -u __token__ -i python --repository-url https://test.pypi.org/legacy/
       env:
         MATURIN_PASSWORD: ${{ secrets.PYPI_TOKEN }}
