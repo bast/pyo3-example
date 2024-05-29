@@ -1,4 +1,4 @@
-from perfect import perfect_numbers
+from perfectseries import perfect_numbers
 
 
 n = 10000

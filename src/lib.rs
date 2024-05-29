@@ -11,7 +11,7 @@ pub fn perfect_numbers(n: usize) -> Vec<usize> {
 }
 
 #[pymodule]
-fn perfect(m: &Bound<'_, PyModule>) -> PyResult<()> {
+fn perfectseries(m: &Bound<'_, PyModule>) -> PyResult<()> {
     m.add("__version__", env!("CARGO_PKG_VERSION"))?;
 
     m.add_function(wrap_pyfunction!(perfect_numbers, m)?)?;
