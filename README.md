@@ -1,4 +1,4 @@
-# Example project to demonstrate interfacing Python and Rust
+# Example project to demonstrate interfacing Python and Rust using [PyO3](https://pyo3.rs/)
 
 [![License](https://img.shields.io/badge/license-%20MIT-blue.svg)](LICENSE)
 
