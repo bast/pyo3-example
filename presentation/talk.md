@@ -6,7 +6,7 @@ class: gray-background, middle, center
 
 Nordic RSE conference 2024
 
-<img src="img/logo.png"
+<img src="presentation/img/logo.png"
      alt="RSE logo"
      style="height: 250px;"/>
 
