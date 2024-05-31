@@ -13,6 +13,12 @@ $ python example2.py
 ```
 
 
+## Essential tools
+
+- [PyO3](https://pyo3.rs/)
+- [Maturin](https://www.maturin.rs/)
+
+
 ## Accompanying slide deck
 
 Slides can be served using [Cicero](http://cicero.xyz), which can
